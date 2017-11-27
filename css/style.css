@@ -38,9 +38,9 @@ ul#menu-items {
 
 }
 
-#menu-items a:focus{
-    text-decoration: line-through;
-}
+
+
+
 
 
 @keyframes strike{

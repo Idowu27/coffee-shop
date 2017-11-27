@@ -1,0 +1,8 @@
+html{
+    background: #D1E1E0 !important ;
+}
+
+
+#menu-items .active-link {
+    text-decoration: line-through;
+}
