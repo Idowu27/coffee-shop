@@ -50,13 +50,53 @@ html{
 }
 
 
-
-
-
 @keyframes imageAnimation { 
     0% { opacity: 0; animation-timing-function: ease-in; }
     20% { opacity: 1; animation-timing-function: ease-out; }
     30% { opacity: 1 }
     45% { opacity: 0 }
     
+}
+
+
+div#about-section{
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+    color: #2E0E02;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+div#about-section h1{
+    font-size: 60px;
+    margin-bottom: -7%;
+}
+
+div#about-section img{
+    height: 14vh;
+}
+
+div#about-section p {
+    text-align: justify;
+}
+
+.footer-section {
+    border-top: 1px solid #2E0E02;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7%;
+    font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.footer-section  div#footer-info{
+    position: initial;
+}
+
+.footer-section .tagline{
+    float: right;
+    padding: 0 2%;
+    position: relative;
+    bottom: -4vh;
 }
