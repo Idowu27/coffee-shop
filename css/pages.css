@@ -1,8 +1,62 @@
 html{
     background: #D1E1E0 !important ;
+    height: 100%;
 }
 
 
 #menu-items .active-link {
     text-decoration: line-through;
+}
+
+/****** About page******/
+
+#photo-header-gallery { 
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    left: 0px;
+    z-index: -99;
+    border-top: 1px solid #2E0E02;
+    border-bottom: 1px solid #2E0E02;
+}
+
+#photo-header-gallery .header-gallery-pics { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 18s linear infinite 0s; 
+}
+
+#photo-header-gallery .header-gallery-pics:nth-child(1)  { 
+    background-image: url(../assets/imgs/shop04.jpg);
+    z-index: 0;
+}
+#photo-header-gallery .header-gallery-pics:nth-child(2)  { 
+    background-image: url(../assets/imgs/shop05.jpg);
+    z-index: 0;
+    animation-delay: 6s; 
+}
+#photo-header-gallery .header-gallery-pics:nth-child(3)  { 
+    background-image: url(../assets/imgs/home-slideshow04.jpeg);
+    z-index: 0;
+    animation-delay: 12s;
+}
+
+
+
+
+
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    20% { opacity: 1; animation-timing-function: ease-out; }
+    30% { opacity: 1 }
+    45% { opacity: 0 }
+    
 }

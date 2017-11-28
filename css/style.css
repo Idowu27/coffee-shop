@@ -80,6 +80,10 @@ ul#menu-items {
     font-family: 'Montserrat', sans-serif;
 }
  
+
+
+/****** Background Slideshow ******/
+
 .cb-slideshow { 
     position: fixed;
     width: 100%;
@@ -88,8 +92,6 @@ ul#menu-items {
     left: 0px;
     z-index: -99;
 }
-
-/****** Background Slideshow ******/
 
 .cb-slideshow .slideshow-pics { 
     width: 100%;
